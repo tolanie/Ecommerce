@@ -162,6 +162,7 @@ header ul li a:hover{
         height: 100vh;
         background-color: #fff;
         z-index: 888;
+        box-shadow: rgba(50, 50, 93, 0.23) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
     }
 
     header ul li{
@@ -180,13 +181,31 @@ header ul li a:hover{
         position: absolute;
         top: 35px;
         right: 20px;
-        color: #E2CCFD;
+        color: #E2CCFD ;
         display: block;
         font-size: 25px;
         z-index: 999;
     }
 
-    /* .close{
+    .open{
+        top: 18%;
+        color: #0f3460;
+        right: 30px;
+
+    }
+
+    .close{
         right: 45%;
-    } */
+    }
+
+    .close.home-bth{
+        background-color:#E2CCFD ;
+        color: #0f3460;
+        border-radius: 50%;
+        padding: 0;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
 }

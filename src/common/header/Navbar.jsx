@@ -9,8 +9,8 @@ const Navbar = () => {
     <header className='header'>
       <div className="container d_flex">
         <div className="categories d_flex">
-          <span className='fa-solid fa-border-all'> </span>
-          <h4>Categories <i className='fa fa-chevron-down'></i></h4>
+        <i className='fa-regular fa-border-all'></i>        
+        <h4>Categories <i className='fa fa-chevron-down'></i></h4>
         </div>
 
         <div className="navlink">
@@ -41,8 +41,8 @@ const Navbar = () => {
           </ul>
 
           <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>
-            {
-              MobileMenu? <i className='fas fa-times close home-bth'></i>:
+            {MobileMenu? 
+            <i className='fas fa-times close home-bth'></i>:
               // <i className='fa-solid fa-xmark open'></i>
               <i className='fa fa-bars open'></i>
             }
