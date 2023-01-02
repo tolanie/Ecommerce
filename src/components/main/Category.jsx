@@ -2,7 +2,7 @@ import React from 'react'
 
 const Category = () => {
     const data = [
-        {
+         {
             cateImg: "https://m.media-amazon.com/images/I/71RUxoV0VjL._AC_SL1500_.jpg",
             cateName: "Fashion",
         },

@@ -82,9 +82,10 @@ input, button{
 }
 
 /* Category */
-.contentWidth{
+.contentWidth {
     width: 77%;
 }
+
 .category{
     width: 23%;
     box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
