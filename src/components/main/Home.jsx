@@ -1,7 +1,7 @@
 import React from 'react'
 import Category from './Category'
-import SlideCard from './SlideCard'
 import Slider from './Slider'
+import "./Home.css"
 
 const Home = () => {
   return (
